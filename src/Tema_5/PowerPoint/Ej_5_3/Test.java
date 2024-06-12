@@ -1,6 +1,6 @@
-package Tema_5.Ej_5_3;
+package Tema_5.PowerPoint.Ej_5_3;
 
-import Tema_5.Ej_5_3.excepciones.NoMoreNumbersException;
+import Tema_5.PowerPoint.Ej_5_3.excepciones.NoMoreNumbersException;
 
 public class Test {
     public static void main(String[] args) {

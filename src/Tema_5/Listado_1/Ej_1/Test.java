@@ -1,6 +1,5 @@
 package Tema_5.Listado_1.Ej_1;
 
-import Tema_5.Ej_5_3.excepciones.NoMoreNumbersException;
 import Tema_5.Listado_1.Ej_1.Excepciones.SalgoAgotadoException;
 
 public class Test {
@@ -16,7 +15,7 @@ public class Test {
                 bono.viajar();
             }catch (SalgoAgotadoException s){
                 System.out.println("Error:");
-                s.printStackTrace();
+                //s.printStackTrace();
                 System.out.println(s.getMessage());
             }
         }

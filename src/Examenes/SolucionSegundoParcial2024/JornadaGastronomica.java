@@ -7,7 +7,7 @@ import Examenes.SolucionSegundoParcial2024.exceptions.MenuCompletoException;
 import Examenes.SolucionSegundoParcial2024.pedidos.Pedido;
 import Examenes.SolucionSegundoParcial2024.pedidos.Plato;
 import Examenes.SolucionSegundoParcial2024.pedidos.menus.MenuLigero;
-import examenes.segundoparcialenero2024.utils.Fecha;
+import Examenes.SolucionSegundoParcial2024.utils.Fecha;
 
 import java.util.*;
 

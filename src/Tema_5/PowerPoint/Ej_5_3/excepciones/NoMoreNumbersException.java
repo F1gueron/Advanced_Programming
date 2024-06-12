@@ -1,4 +1,4 @@
-package Tema_5.Ej_5_3.excepciones;
+package Tema_5.PowerPoint.Ej_5_3.excepciones;
 
 public class NoMoreNumbersException extends Exception{
 

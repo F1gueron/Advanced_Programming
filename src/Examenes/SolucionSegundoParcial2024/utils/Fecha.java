@@ -1,4 +1,4 @@
-package examenes.segundoparcialenero2024.utils;
+package Examenes.SolucionSegundoParcial2024.utils;
 
 import java.util.Calendar;
 import java.util.Objects;

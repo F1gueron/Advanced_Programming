@@ -1,4 +1,4 @@
-package Tema_6.Ej_6_4;
+package Tema_6.PowerPoint.Ej_6_4;
 
 public class Viaje {
     private String origen;

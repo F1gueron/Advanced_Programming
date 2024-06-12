@@ -1,10 +1,11 @@
 package Examenes.SolucionSegundoParcial2024;
 
 import Examenes.SolucionSegundoParcial2024.exceptions.FechaInexistenteException;
-import examenes.segundoparcialenero2024.utils.Fecha;
+import Examenes.SolucionSegundoParcial2024.utils.Fecha;
+
 
 import java.util.*;
-import java.util.stream.Stream;
+
 
 public class GestorJornadasGastronomicas {
 

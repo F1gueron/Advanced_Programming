@@ -1,4 +1,4 @@
-package Tema_6.Ej_6_3;
+package Tema_6.PowerPoint.Ej_6_3;
 
 import java.util.HashMap;
 import java.util.Map;
