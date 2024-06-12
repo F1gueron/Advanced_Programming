@@ -1,19 +1,33 @@
 package PruebasParaTeoria;
 
+import javax.xml.crypto.dom.DOMCryptoContext;
+import java.util.function.BiFunction;
+
 public class Cuenta {
-    protected int numero_cuenta;
-    protected double saldo;
-    public Cuenta(int numero_cuenta, double saldo) {
-        this.numero_cuenta = numero_cuenta;
-        this.saldo = saldo;
+
+    private int numCuenta;
+    private double saldo;
+
+    // Campo para almacenar la expresión lambda que calcula el área
+    BiFunction<Integer, Integer, Integer> calcularArea = (longitud, altura) -> altura * longitud;
+
+    // Constructor
+    public Cuenta() {
+        // No se necesita hacer nada en el constructor
     }
-    public void depositar(double cantidad) {
-        this.saldo = this.saldo + cantidad;
+
+    public Cuenta(int i, double v) {
+        this.numCuenta = i;
+        this.saldo = v;
     }
-    public void sacar(double cantidad) {
-        this.saldo = this.saldo - cantidad;
+
+    // Ejemplo de uso:
+    public void ejemplo() {
+        int area = calcularArea.apply(5, 10); // Devuelve 50
+        System.out.println("El área es: " + area);
     }
-    public double saldo() {
+
+    public Double getSaldo() {
         return this.saldo;
     }
 }
