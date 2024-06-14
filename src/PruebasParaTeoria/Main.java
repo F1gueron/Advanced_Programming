@@ -3,8 +3,14 @@ package PruebasParaTeoria;
 import java.util.stream.Stream;
 
 public class Main {
+
+    private static String hola = "Hola mundo";
+
+
     public static void main(String[] args) {
-        Stream.of("d2", "a2", "b1", "b3", "c")
+        System.out.println("/ \"");
+        System.out.println(hola);
+        /*Stream.of("d2", "a2", "b1", "b3", "c")
                 .sorted((s1, s2) -> {
                     System.out.printf("sort: %s; %s\n", s1, s2);
                     return s1.compareTo(s2);
@@ -41,6 +47,6 @@ public class Main {
                     return s.toUpperCase();
                 })
                 .forEach(s -> System.out.println("forEach: " + s));
-
+*/
     }
 }
